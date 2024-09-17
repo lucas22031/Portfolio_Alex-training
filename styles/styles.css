@@ -124,6 +124,10 @@ strong{
 }
 
 @media (max-width: 995px){
+  .home{
+    padding-right: 50px;
+  }
+  
   .nav-bar{
     display: none;
   }
@@ -156,19 +160,11 @@ strong{
   h1{
     font-size: 4rem;
   }
-
-  .home-img{
-    display: flex;
-    justify-content: flex-end;
-  }
+ 
   .img{
     width: 70vw;
   }
-  .introduction{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-  }
+ 
  .button{
     margin-bottom: 50px;
  }
