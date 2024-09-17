@@ -151,16 +151,20 @@ strong{
 }
 @media (max-width:449px){
   body {
-    padding: 15px 40px; /* Ajuste do padding para smartphones */
+    padding: 15px 40px; 
   }
   h1{
     font-size: 4rem;
   }
+
+  .home-img{
+    display: flex;
+    justify-content: flex-end;
+  }
   .img{
-    width: 70px;
+    width: 70vw;
   }
   .introduction{
-    align-items: center;
     display: flex;
     flex-direction: column;
     text-align: left;
